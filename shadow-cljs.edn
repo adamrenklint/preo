@@ -1,0 +1,9 @@
+{:deps true
+ :socket-repl {:port 9000}
+ :nrepl false
+ :builds
+ {:browser-test
+  {:target :browser-test
+   :test-dir "browser-test-target"
+   :devtools {:http-port 4000
+              :http-root "browser-test-target"}}}}

@@ -1,0 +1,8 @@
+.cpcache/
+.shadow-cljs/
+target/
+.lsp/
+.DS_Store
+.clj-kondo/
+cljs-test-runner-out/
+browser-test-target/
