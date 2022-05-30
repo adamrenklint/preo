@@ -2,6 +2,16 @@
 
 Clojure/Script library for validation of arguments and return value in :pre and :post hooks, with readable Expound errors
 
+## Installation
+
+### Leiningen/Boot
+
+`[com.adamrenklint/preo "0.1.0"]`
+
+#### deps.edn
+
+`com.adamrenklint/preo {:mvn/version "0.1.0"}`
+
 ## Usage
 
 ```clj
