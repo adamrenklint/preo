@@ -52,7 +52,7 @@ Validate Clojure/Script function arguments and return value in `:pre` and `:post
 ;
 ; at preo.core$throw_error_BANG_.invokeStatic (core.cljc:7)
 ;    preo.core$throw_error_BANG_.invoke (core.cljc:7)
-;    preo.example/fn (example.cljc:0)
+;    preo.example/arg-example (example.cljc:0)
 ```
 
 ```clj
@@ -83,7 +83,7 @@ Validate Clojure/Script function arguments and return value in `:pre` and `:post
 ;
 ; at preo.core$throw_error_BANG_.invokeStatic (core.cljc:7)
 ;    preo.core$throw_error_BANG_.invoke (core.cljc:7)
-;    preo.example/fn (example.cljc:2)
+;    preo.example/ret-example (example.cljc:2)
 ```
 
 ## Develop
