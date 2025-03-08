@@ -31,7 +31,6 @@
                             (ret-string 123)))))
   (testing "spec"
     (let [ret-pos-int (fn [v] {:post [(p/ret! ::pos-int %)]} v)]
-      (ret-pos-int "asdf")
       (is (= 123 (ret-pos-int 123)))
       (is (thrown-with-msg? #?(:clj AssertionError :cljs js/TypeError)
                             #"^Invalid return value(.|\n)+ Spec failed(.|\n)+asdf(.|\n)+should satisfy(.|\n)+integer\?"
