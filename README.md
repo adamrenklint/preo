@@ -6,11 +6,11 @@ Validate Clojure/Script function arguments and return value in `:pre` and `:post
 
 ### Leiningen/Boot
 
-`[com.adamrenklint/preo "0.1.0"]`
+`[com.adamrenklint/preo "1.0.0"]`
 
 #### deps.edn
 
-`com.adamrenklint/preo {:mvn/version "0.1.0"}`
+`com.adamrenklint/preo {:mvn/version "1.0.0"}`
 
 ## Usage
 
