@@ -2,6 +2,16 @@
 
 Validate Clojure/Script function arguments and return value in `:pre` and `:post` hooks, with readable [Expound](https://github.com/bhb/expound) errors.
 
+## Installation
+
+### Leiningen/Boot
+
+`[com.adamrenklint/preo "0.1.0"]`
+
+#### deps.edn
+
+`com.adamrenklint/preo {:mvn/version "0.1.0"}`
+
 ## Usage
 
 ```clj
