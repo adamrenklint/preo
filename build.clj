@@ -4,7 +4,7 @@
             [clojure.java.shell :refer [sh]]))
 
 (def lib 'com.adamrenklint/preo)
-(def version (format "0.1.0"))
+(def version (format "1.0.0"))
 
 (defn- run-proc-fn [proc-fn]
   (let [{:keys [out exit]} (proc-fn)]
