@@ -15,7 +15,7 @@ Validate Clojure/Script function arguments and return value in `:pre` and `:post
 ## Usage
 
 ```clj
-(ns example
+(ns preo.example
   (:require [cljs.spec.alpha :as s]
             [preo.core :as p]))
 
@@ -75,7 +75,7 @@ Validate Clojure/Script function arguments and return value in `:pre` and `:post
 ;
 ; -- Relevant specs -------
 ;
-; :preo.core-test/pos-int:
+; :preo.example/pos-int:
 ; (clojure.spec.alpha/and clojure.core/integer? clojure.core/pos?)
 ;
 ; -------------------------
